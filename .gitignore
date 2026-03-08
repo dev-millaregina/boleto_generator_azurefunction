@@ -1,0 +1,29 @@
+# === Visual Studio & IDEs ===
+# Ignora as pastas .vs em qualquer nível do projeto
+.vs/
+**/.vs/
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+slnx.sqlite
+
+# === Compilação & Binários ===
+# Ignora pastas de saída de todas as Functions
+**/bin/
+**/obj/
+**/publish/
+**/store/
+
+# === SEGURANÇA (OBRIGATÓRIO) ===
+# Ignora o arquivo que contém suas Connection Strings do Service Bus e Cosmos DB
+**/local.settings.json
+
+# === Pacotes de Dependências ===
+**/packages/
+.nuget/
+
+# === Arquivos de Sistema e Rascunhos ===
+Thumbs.db
+Desktop.ini
+temp/

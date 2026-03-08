@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="fnSalvaBoleto/fnSalvaBoleto.csproj" Id="7fbc99d7-1722-43f1-b833-5be5199037fc" />
+  <Project Path="fnValidaBoleto/fnValidaBoleto.csproj" Id="7c868436-8745-471a-956f-5fea020e3942" />
+  <Project Path="FunctionApp1/fnGeradorBoletos.csproj" />
+</Solution>
